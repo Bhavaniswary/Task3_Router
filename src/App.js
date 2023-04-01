@@ -17,8 +17,8 @@ const router =createBrowserRouter(
        <Route index element={<Home/>}/> 
        <Route path='about' element={<About/>}/>
        <Route path='contact' element={<ContactLayout/>}/> 
-          <Route path='mail' element={<Mail/>}/>
-          <Route path='phone' element={<Phone/>}/>
+          <Route path='/contact/mail' element={<Mail/>}/>
+          <Route path='/contact/phone' element={<Phone/>}/>
 
     </Route>
     
